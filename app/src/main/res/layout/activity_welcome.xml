@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:foreground="@drawable/foreground_design" />
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:text="MazdoorBhai"
             android:textAlignment="center"
-            android:textColor="#FBFBFB"
+            android:textColor="@color/black"
             android:textStyle="bold" />
 
         <Button
@@ -66,7 +66,7 @@
             android:layout_marginTop="30dp"
             android:text="@string/sign_in"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
     </LinearLayout>

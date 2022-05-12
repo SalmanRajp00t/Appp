@@ -10,9 +10,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:foreground="@drawable/foreground_design"
-        android:scaleType="fitXY"
-    />
+        android:scaleType="fitXY" />
 
     <LinearLayout
 
@@ -26,7 +24,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="183dp"
+            android:layout_height="180dp"
             android:scaleType="centerCrop"
             android:src="@drawable/sas" />
 
@@ -45,7 +43,7 @@
             android:layout_height="wrap_content"
             android:text="@string/register"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/purple_200"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -54,12 +52,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
             android:drawableLeft="@drawable/account_circle"
             android:drawablePadding="13dp"
             android:hint="@string/full_name"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white" />
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
 
         <EditText
             android:id="@+id/txt_reg_email"
@@ -70,8 +68,8 @@
             android:drawableLeft="@drawable/email"
             android:drawablePadding="13dp"
             android:hint="@string/email"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white" />
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
 
         <EditText
             android:id="@+id/txt_reg_password"
@@ -82,8 +80,8 @@
             android:drawableLeft="@drawable/vpn_key"
             android:drawablePadding="13dp"
             android:hint="@string/password"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white" />
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
 
         <Button
             android:id="@+id/btn_register"
@@ -107,7 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/already_registered"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 

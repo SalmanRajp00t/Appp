@@ -9,7 +9,6 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:foreground="@drawable/foreground_design"
         android:scaleType="fitXY" />
 
     <LinearLayout
@@ -51,24 +50,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
             android:drawableLeft="@drawable/email"
             android:drawablePadding="13dp"
             android:hint="@string/email"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white" />
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
 
         <EditText
             android:id="@+id/txt_login_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
             android:drawableLeft="@drawable/vpn_key"
             android:drawablePadding="13dp"
             android:hint="@string/password"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white" />
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
 
         <Button
             android:id="@+id/btn_signIn"
@@ -92,7 +91,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/do_not_have_an_account"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 

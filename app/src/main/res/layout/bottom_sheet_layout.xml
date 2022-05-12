@@ -32,16 +32,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="8dp"
             android:orientation="horizontal">
 
             <com.makeramen.roundedimageview.RoundedImageView
                 android:id="@+id/bottom_sheet_img"
-                android:layout_width="130dp"
-                android:layout_height="110dp"
+                android:layout_width="127dp"
+                android:layout_height="108dp"
                 android:layout_margin="10dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/pizza"
+                android:src="@drawable/mazdooor1"
                 app:riv_corner_radius="24dp" />
 
             <LinearLayout

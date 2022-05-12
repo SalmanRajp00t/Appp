@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="My Cart"
             android:textSize="30dp"
-            android:fontFamily="@font/amita"
+            android:textColor="@color/black"
             android:layout_gravity="center"
             />
         <View

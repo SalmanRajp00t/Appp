@@ -22,8 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/food1"
-                />
+                android:src="@drawable/mazdooor1" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
